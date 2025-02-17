@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures img {
+    width: 20vmin; 
+    height: auto;
+}
+
+.pictures button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    margin: 2vmin;
+}
+
+.app {
+    min-height: 100vh;
+    position: relative;
+}
+
+.camera {
+    position: relative; /* Changed from fixed to relative */
+    top: 0;
+    left: 0; /* Changed from 100% to 0 */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* .container {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures img {
+    width: 20vmin; 
+    height: auto;
+}
+
+.pictures button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    margin: 2vmin;
+}
+.app{
+    min-height: 100vh;
+    position: relative;
+}
+
+.camera{
+    position: fixed;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+video{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+ */
