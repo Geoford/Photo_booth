@@ -2,7 +2,7 @@ import React , { useRef, useEffect, useState } from 'react';
 import by1 from './by1.png';
 import by2 from './by2.png';
 import by4 from './by4.png';
-import styles from './photoformat.module.css';
+import styles from './photoFormat.module.css';
 
 export default function PhotoFormat() {
     const [content, setContent] = useState(null);
